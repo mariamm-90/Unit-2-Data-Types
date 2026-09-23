@@ -1,0 +1,33 @@
+bill = input("How much was the bill")
+print(int (bill)+20)
+
+
+def add(x,y):
+    return x + y
+
+print(add(5,6))
+z = add(5,6)
+bill = add(7,9)
+
+isValid = True
+if rain = True :
+    print("Bring Umbrella")
+else:
+print("No umbrealla")
+
+age = 66
+if age >65:
+    print("senior citizen")
+if age >18:
+    print("Adult")
+else: 
+    print("child")
+
+
+
+has_key = True
+is_magic = True
+if has_key or is_magic:
+    print("Enter Castle")
+else:
+    print("cannnot enter")

@@ -1,0 +1,19 @@
+#Integer are whole numbers 
+
+
+
+
+
+
+#Strings are for names and characters
+name = "Mariam"
+greeting = f"Hello {name}"
+print(greeting)
+#print(1+"1")
+print("Mariam".upper())
+
+#boolean
+isValid = True
+isCool = False 
+
+age = input ("What is your age")
