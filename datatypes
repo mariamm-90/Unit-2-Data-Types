@@ -1,4 +1,4 @@
-#Integer
+""" #Integer
 x = 7
 
 #Float
@@ -8,7 +8,7 @@ y = 3.14
 z = True
 
 #String
-name = "Steve"
+name = "Steve" """
 
 #Lists
 students = ["Natalie", "Martin", "Ben", "Stefania"]
@@ -16,5 +16,5 @@ students.append("Mariam")
 print(students[-1])
 for student in students:
     if(student == "Martin"):
-        print("Found him!")
+        print("Found Martin!")
 
