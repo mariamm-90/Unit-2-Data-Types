@@ -1,4 +1,8 @@
-def spaces(n,y,t):
-    for i in range():
-        if y[0] == 'c' and t[0] == 'c':
-            spaces(5,".CC...")
+def occupied(n, y, t):
+    spaces = 0
+    for i in range(n):
+        if y[1] == "C" and t[i] == "C":
+        spaces = spaces + 1 
+    return spaces
+
+occupied(5,"CC....")
