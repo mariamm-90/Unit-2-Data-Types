@@ -67,7 +67,7 @@ print(find_factors(num)) """
 
 
 #Challenge 6 create function that accepts two numbers and returns the greatest common factor of the two numbers
-def find_gcf(num1, num2):
+""" def find_gcf(num1, num2):
     gcf = 1
     for i in range(1, num1 + 1):
         if num1 % i == 0 and num2 % i == 0:
@@ -75,4 +75,4 @@ def find_gcf(num1, num2):
     return gcf
 num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
-print(find_gcf(num1, num2))
+print(find_gcf(num1, num2)) """
