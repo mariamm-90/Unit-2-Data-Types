@@ -92,9 +92,9 @@ print(find_gcf(num1, num2))
 
 
 
-""" x = int(input("Enter a positive number"))
+x = int(input("Enter a positive number"))
 y = int(input("Enter another positive number"))
 def greatest_common_factor():
     while x:
         number1, number2 = number2, number1 % number2
-print(f"The greatest common factor is {greatest_common_factor(x,y)}") """
+print(f"The greatest common factor is {greatest_common_factor(x,y)}")
