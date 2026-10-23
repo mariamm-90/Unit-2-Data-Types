@@ -2,16 +2,20 @@ def casino(quarters, m1, m2, m3):
     plays = 0
 
     while quarters > 0:
+
+        #machine 1
         quarters -= 1
         plays += 1
-
         m1 += 1
         if m1 == 35:
             quarters += 30
             m1 = 0
         if quarters == 0:
             break
-            
+
+        #MACHINE 2    
+        quarters -= 1
+        plays += 1
         m2 += 1
         if m2 == 100:
             quarters += 60
@@ -19,6 +23,9 @@ def casino(quarters, m1, m2, m3):
         if quarters == 0:
             break
             
+        #MACHINE 3
+        quarters -= 1
+        plays += 1
         m3 += 1
         if m3 == 10:
             quarters += 9
