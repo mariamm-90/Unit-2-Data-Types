@@ -81,27 +81,6 @@ print(find_gcf(num1, num2))
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 """ x = int(input("Enter a positive number"))
 y = int(input("Enter another positive number"))
 def greatest_common_factor():
