@@ -1,5 +1,6 @@
 def casino(quarters, m1, m2, m3):
     plays = 0
+    machine= 1
 
     while quarters > 0:
 
@@ -35,25 +36,19 @@ def casino(quarters, m1, m2, m3):
 
     print(f"Dasha plays {plays} times before going broke")
     return plays
-casino(quarters=48, m1=3, m2=10, m3=4)
+casino(quarters=77, m1=4, m2=9, m3=3)
+        
 
 
 
-
-
-""" def casino(quarters,m1,m2,m3):
-    plays = 0
-    machine = 1
-
-    while quarters > 0:
-        if plays[0] == 35:
+"""         if plays[0] == 35:
             quarters += 30 and plays[0] == 0
         else:
             quarters -= 1
             plays [0] += 1
-            if plays[1] == 100:
+        if plays[1] == 100:
                 quarters += 60 and plays [1] == 0
-            else:
+        else:
                 quarters -= 1 
                 plays[1] += 1
                 if plays[2] == 10:
@@ -64,7 +59,7 @@ casino(quarters=48, m1=3, m2=10, m3=4)
         if quarters == 0:
             break
 
-print:(f"Martha plays {plays} times before going broke") """
+print:(f"Martha plays {plays} before going broke") """
 
 
 
